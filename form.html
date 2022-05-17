@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://static2.lasprovincias.es/www/multimedia/201710/01/media/cortadas/los-simpson-1-kFJG-U40902176179jKB-624x385@Las%20Provincias.jpg">
+    <link rel="stylesheet" href="form.css">
+    <title>formulario</title>
+</head>
+<body>
+    <main>
+      <section class="formulario">
+        <form>
+          <h2>Ejemplo De Formulario</h2><br>
+              <label id="Nombre" for="Nombre">Nombre:</label>
+              <input type="text" id="Nombre" placeholder="Escriba su nombre" required=""><br>
+              <label for="Apellido">Apellidos:</label>
+              <input type="text" id="Apellido" placeholder="Escriba su apellido" maxlength="25" minlength="7" required="">
+              <br>
+              <label for="Email">Correo Electronico:</label>
+              <input type="email" id="Email" placeholder="Escriba su correo electronico" required>
+              <br>
+              <label for="Telefono">Telefono:</label>         
+              <input type="tel" id="Telefono" placeholder="Escriba su numero de telefono" required minlength="10" maxlength="10">
+              <br>
+              <label for="date">Fecha:</label>
+              <input type="date" id="date" placeholder="" required minlength="10" maxlength="10">
+              <br>
+              <input type="reset" value="Borrar">
+              <br>
+              <input type="submit" value="Enviar">
+            </form>
+          </section>
+        </main>
+</body>
+</html>
